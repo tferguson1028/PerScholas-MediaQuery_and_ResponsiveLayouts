@@ -1,0 +1,29 @@
+.icon
+{
+  min-width: 24px !important;
+  min-height: 24px !important;
+  /* width: 100px; */
+  /* height: 100px; */
+  margin: 4px;
+
+  /* Set the image */
+  /* background-image: url(""); */
+
+  background-size: fill;
+  background-position: center;
+  box-shadow: 0px 1px 2px black;
+  background-color: blue;
+}
+
+.slash { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-slashdef.png");}
+.pierce { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-thrustdef.png");}
+.blunt { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-strikedef.png");}
+
+.fire { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-firebonus.png");}
+.magic { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-magicbonus.png");}
+.lightning { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-lightningbonus.png");}
+.dark { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-darkbonus.png");}
+
+.frost { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-wp_frost.png");}
+.poison { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-poisonres.png.png");}
+.bleed { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/icon-bleedres.png");}

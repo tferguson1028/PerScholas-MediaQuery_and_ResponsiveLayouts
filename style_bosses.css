@@ -1,0 +1,301 @@
+#content .icon
+{
+  display: none;
+}
+
+._1, ._2, ._3, ._4, ._5, ._6, ._7, ._8, ._9, ._10, 
+._11, ._12, ._13, ._14, ._15, ._16, ._17, ._18, ._19
+{
+  display: none;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries#syntax_improvements_in_level_4 */
+@media screen and (min-width: 1151px)
+{ 
+  body { background-color: gainsboro; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/ancient_wyvern_trophy.PNG");}
+  ._19 { display: initial; }
+  #weakness > .icon.lightning,
+  #weakness > .icon.frost,
+  #resistance > .icon.bleed,
+  #resistance > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1150px) and (min-width: 1101px)
+{ 
+  body { background-color: goldenrod; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/the_nameless_king_trophy.PNG");}
+  ._18 { display: initial; }
+  #weakness > .icon.fire,
+  #weakness > .icon.lightning,
+  #resistance > .icon.lightning,
+  #resistance > .icon.fire,
+  #resistance > .icon.bleed,
+  #resistance > .icon.poison,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1051px)
+{ 
+  body { background-color: azure; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/high_lord_wolnir_trophy.PNG");}
+  ._17 { display: initial; }
+  #resistance > .icon.dark,
+  #immunity > .icon.poison,
+  #immunity > .icon.bleed,
+  #immunity > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 1001px)
+{ 
+  body { background-color: lightgoldenrodyellow; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/curse-rotted_greatwood_trophy.PNG");}
+  ._16 { display: initial; }
+  #weakness > .icon.slash,
+  #weakness > .icon.pierce,
+  #weakness > .icon.fire,
+  #immunity > .icon.poison,
+  #immunity > .icon.bleed,
+  #immunity > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 951px)
+{ 
+  body { background-color: coral; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/lord_of_cinder_yhorm_the_giant.PNG");}
+  ._15 { display: initial; }
+  #weakness > .icon.lightning,
+  #resistance > .icon.slash,
+  #resistance > .icon.blunt,
+  #resistance > .icon.pierce,
+  #resistance > .icon.magic,
+  #resistance > .icon.dark,
+  #immunity > .icon.fire,
+  #immunity > .icon.poison,
+  #immunity > .icon.bleed,
+  #immunity > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 950px) and (min-width: 901px)
+{ 
+  body { background-color: darkred; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/iudex_gundry_trophy.PNG");}
+  ._14 { display: initial; }
+  #weakness > .icon.fire,
+  #weakness > .icon.frost,
+  #resistance > .icon.dark,
+  #resistance > .icon.bleed,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 900px)  and (min-width: 851px)
+{ 
+  body { background-color: darkorchid; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/lord_of_cinder_aldritch_devourer_of_gods.PNG");}
+  ._13 { display: initial; }
+  #weakness > .icon.fire,
+  #weakness > .icon.lightning,
+  #resistance > .icon.magic,
+  #resistance > .icon.dark,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 850px)  and (min-width: 801px)
+{ 
+  body { background-color: orangered; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/old_demon_king_trophy.PNG");}
+  ._12 { display: initial; }
+  #weakness > .icon.dark,
+  #resistance > .icon.fire,
+  #immunity > .icon.bleed,
+  #immunity > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 800px)  and (min-width: 751px)
+{ 
+  body { background-color: lightblue; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/oceiros_the_consumed_king_trophy.PNG");}
+  ._11 { display: initial; }
+  #weakness > .icon.lightning,
+  #weakness > .icon.magic,
+  #resistance > .icon.bleed,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 750px)  and (min-width: 701px)
+{ 
+  body { background-color: skyblue; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/vordt_of_the_boreal_valley_trophy.PNG");}
+  ._10 { display: initial; }
+  #weakness > .icon.fire,
+  #weakness > .icon.dark,
+  #resistance > .icon.slash,
+  #resistance > .icon.pierce,
+  #immunity > .icon.poison,
+  #immunity > .icon.bleed,
+  #immunity > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 700px)  and (min-width: 651px)
+{ 
+  body { background-color: #FADD57; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/dragonslayer_armour_trophy.PNG");}
+  ._9 { display: initial; }
+  #weakness > .icon.frost,
+  #resistance > .icon.dark,
+  #resistance > .icon.lightning,
+  #immunity > .icon.poison,
+  #immunity > .icon.bleed
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 650px)  and (min-width: 601px)
+{ 
+  body { background-color: slateblue; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/dancer_of_the_boreal_valley_trophy.PNG");}
+  ._8 { display: initial; }
+  #weakness > .icon.blunt,
+  #weakness > .icon.dark,
+  #weakness > .icon.lightning,
+  #resistance > .icon.bleed,
+  #immunity > .icon.poison,
+  #immunity > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px)  and (min-width: 551px)
+{
+  body { background-color: grey; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/champion_gundyr_trophy.PNG");}
+  ._7 { display: initial; }
+  #weakness > .icon.lightning,
+  #resistance > .icon.poison,
+  #resistance > .icon.bleed
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 550px)  and (min-width: 501px)
+{
+  body { background-color: rebeccapurple; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/pontiff_sulyvahn_trophy.PNG");}
+  ._6 { display: initial; }
+  #weakness > .icon.pierce,
+  #resistance > .icon.poison,
+  #resistance > .icon.bleed,
+  #resistance > .icon.frost
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 500px)  and (min-width: 451px)
+{
+  body { background-color: beige; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/lord_of_cinder_lothric_younger_prince.PNG");}
+  ._5 { display: initial; }
+  #weakness > .icon.slash,
+  #weakness > .icon.pierce,
+  #weakness > .icon.blunt,
+  #weakness > .icon.lightning,
+  #weakness > .icon.frost,
+  #resistance > .icon.dark,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 450px)  and (min-width: 401px)
+{
+  body { background-color: firebrick; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/tumblr_o25lubbSXv1qzwtdlo1_1280.jpg");}
+  ._4 { display: initial; }
+  #weakness > .icon.lightning,
+  #resistance > .icon.fire,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 400px)  and (min-width: 351px)
+{
+  body { background-color: slategray; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/lords_of_cinder_abyss_watchers.PNG");}
+  ._3 { display: initial; }
+  #weakness > .icon.lightning,
+  #resistance > .icon.dark,
+  #resistance > .icon.bleed,
+  #immunity > .icon.poison
+  {
+    display: inline-block;
+  }
+}
+
+
+@media screen and (max-width: 350px) and (min-width: 301px)
+{
+  body { background-color: cornflowerblue; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/crystal_sage_trophy.PNG");}
+  ._2 { display: initial; }
+  #weakness > .icon.slash,
+  #weakness > .icon.pierce,
+  #weakness > .icon.blunt,
+  #weakness > .icon.poison,
+  #resistance > .icon.magic
+  {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 300px)
+{
+  body { background-color: darkslategrey; }
+  #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/deacons_of_the_deep_trophy.PNG");}
+  ._1 { display: initial; }
+  #weakness > .icon.slash,
+  #weakness > .icon.pierce,
+  #weakness > .icon.blunt,
+  #resistance > .icon.magic,
+  #resistance > .icon.dark,
+  #resistance > .icon.bleed
+  {
+    display: inline-block;
+  }
+}
