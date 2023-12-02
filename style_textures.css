@@ -30,10 +30,9 @@ body > main > *::before
 
 body > main > *
 {
-  box-sizing: content-box;
   /* Everything needs to be important because of style_default.css priority */
-  border: 8px solid black !important;
+  border: 4px solid black !important;
   border-image-source: var(--backgroundBorder) !important;
-  border-image-slice: 500 400 !important;
+  border-image-slice: 150 600 !important;
   border-image-repeat: space;
 }

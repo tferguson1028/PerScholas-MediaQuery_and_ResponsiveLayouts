@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 1150px) and (min-width: 1101px)
 { 
-  body { background-color: goldenrod; }
+  body { background-color: #FADD57; }
   #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/the_nameless_king_trophy.PNG");}
   ._18 { display: initial; }
   #weakness > .icon.fire,
@@ -168,7 +168,7 @@
 
 @media screen and (max-width: 700px)  and (min-width: 651px)
 { 
-  body { background-color: #FADD57; }
+  body { background-color: #F39A05; }
   #image { background-image: url("https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/dragonslayer_armour_trophy.PNG");}
   ._9 { display: initial; }
   #weakness > .icon.frost,

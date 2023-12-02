@@ -13,8 +13,8 @@ body
   display: flex;
   flex-direction: column;
 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  /* height: 100vh; */
 
   align-items: center;
   gap: 8px;
@@ -40,8 +40,7 @@ body > main
 
   padding: 8px;
 
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
 
   display: flex;
   flex-direction: column;
@@ -55,14 +54,13 @@ body > main > section
   margin: 4px;
 }
 
-body > main > section > *
-{
-  /* border: 1px solid green; */
-}
+h1 { margin: 8px; }
+h2 { margin: 12px !important; }
 
 #header
 {
   flex-basis: 50%;
+  padding: 8px;
 
   display: flex;
   flex-direction: column;
