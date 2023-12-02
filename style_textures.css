@@ -1,0 +1,39 @@
+:root
+{
+  --backgroundTexture: url("https://st2.depositphotos.com/1006354/6703/i/950/depositphotos_67034781-stock-photo-old-antique-vintage-paper-background.jpg");
+  --backgroundBorder: url("https://clipart-library.com/img/711524.png");
+}
+
+/* https://stackoverflow.com/a/15624692 */
+body > main > *::before
+{
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-image:
+    radial-gradient(circle, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.75) 74%),
+    var(--backgroundTexture)
+  ;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  filter: 
+    grayscale(100%)
+    contrast(80%)
+    brightness(70%)
+    opacity(80%)
+  ;
+}
+
+body > main > *
+{
+  box-sizing: content-box;
+  /* Everything needs to be important because of style_default.css priority */
+  border: 8px solid black !important;
+  border-image-source: var(--backgroundBorder) !important;
+  border-image-slice: 500 400 !important;
+  border-image-repeat: space;
+}
